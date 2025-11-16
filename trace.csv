@@ -1,0 +1,109 @@
+step,pc,instr,reg_written,mem_access
+1,0x00400000,la a0 N,a0,none
+2,0x00400004,lw s0 0(a0),s0,load:0x10010000
+3,0x00400008,li s1 0,s1,none
+4,0x0040000c,li s2 1,s2,none
+5,0x00400010,li s3 0,s3,none
+6,0x00400014,li s4 0,s4,none
+7,0x00400018,li s5 0,s5,none
+8,0x0040001c,li s6 0,s6,none
+9,0x00400020,addi s3 s3 7,s3,none
+10,0x00400024,addi s4 s4 1,s4,none
+11,0x00400028,blez s0 end_loop,none,none
+12,0x0040002c,addi s3 s3 1,s3,none
+13,0x00400030,addi s6 s6 1,s6,none
+14,0x00400034,add s1 s1 s2,s1,none
+15,0x00400038,addi s3 s3 1,s3,none
+16,0x0040003c,bge s2 s0 end_loop,none,none
+17,0x00400040,addi s3 s3 1,s3,none
+18,0x00400044,addi s2 s2 1,s2,none
+19,0x00400048,addi s3 s3 1,s3,none
+20,0x0040004c,j loop,none,none
+21,0x00400050,addi s6 s6 1,s6,none
+22,0x00400034,add s1 s1 s2,s1,none
+23,0x00400038,addi s3 s3 1,s3,none
+24,0x0040003c,bge s2 s0 end_loop,none,none
+25,0x00400040,addi s3 s3 1,s3,none
+26,0x00400044,addi s2 s2 1,s2,none
+27,0x00400048,addi s3 s3 1,s3,none
+28,0x0040004c,j loop,none,none
+29,0x00400050,addi s6 s6 1,s6,none
+30,0x00400034,add s1 s1 s2,s1,none
+31,0x00400038,addi s3 s3 1,s3,none
+32,0x0040003c,bge s2 s0 end_loop,none,none
+33,0x00400040,addi s3 s3 1,s3,none
+34,0x00400044,addi s2 s2 1,s2,none
+35,0x00400048,addi s3 s3 1,s3,none
+36,0x0040004c,j loop,none,none
+37,0x00400050,addi s6 s6 1,s6,none
+38,0x00400034,add s1 s1 s2,s1,none
+39,0x00400038,addi s3 s3 1,s3,none
+40,0x0040003c,bge s2 s0 end_loop,none,none
+41,0x00400040,addi s3 s3 1,s3,none
+42,0x00400044,addi s2 s2 1,s2,none
+43,0x00400048,addi s3 s3 1,s3,none
+44,0x0040004c,j loop,none,none
+45,0x00400050,addi s6 s6 1,s6,none
+46,0x00400034,add s1 s1 s2,s1,none
+47,0x00400038,addi s3 s3 1,s3,none
+48,0x0040003c,bge s2 s0 end_loop,none,none
+49,0x00400040,addi s3 s3 1,s3,none
+50,0x00400044,addi s2 s2 1,s2,none
+51,0x00400048,addi s3 s3 1,s3,none
+52,0x0040004c,j loop,none,none
+53,0x00400050,addi s6 s6 1,s6,none
+54,0x00400034,add s1 s1 s2,s1,none
+55,0x00400038,addi s3 s3 1,s3,none
+56,0x0040003c,bge s2 s0 end_loop,none,none
+57,0x00400040,addi s3 s3 1,s3,none
+58,0x00400044,addi s2 s2 1,s2,none
+59,0x00400048,addi s3 s3 1,s3,none
+60,0x0040004c,j loop,none,none
+61,0x00400050,addi s6 s6 1,s6,none
+62,0x00400034,add s1 s1 s2,s1,none
+63,0x00400038,addi s3 s3 1,s3,none
+64,0x0040003c,bge s2 s0 end_loop,none,none
+65,0x00400040,addi s3 s3 1,s3,none
+66,0x00400044,addi s2 s2 1,s2,none
+67,0x00400048,addi s3 s3 1,s3,none
+68,0x0040004c,j loop,none,none
+69,0x00400050,addi s6 s6 1,s6,none
+70,0x00400034,add s1 s1 s2,s1,none
+71,0x00400038,addi s3 s3 1,s3,none
+72,0x0040003c,bge s2 s0 end_loop,none,none
+73,0x00400040,addi s3 s3 1,s3,none
+74,0x00400044,addi s2 s2 1,s2,none
+75,0x00400048,addi s3 s3 1,s3,none
+76,0x0040004c,j loop,none,none
+77,0x00400050,addi s6 s6 1,s6,none
+78,0x00400034,add s1 s1 s2,s1,none
+79,0x00400038,addi s3 s3 1,s3,none
+80,0x0040003c,bge s2 s0 end_loop,none,none
+81,0x00400040,addi s3 s3 1,s3,none
+82,0x00400044,addi s2 s2 1,s2,none
+83,0x00400048,addi s3 s3 1,s3,none
+84,0x0040004c,j loop,none,none
+85,0x00400050,addi s6 s6 1,s6,none
+86,0x00400034,add s1 s1 s2,s1,none
+87,0x00400038,addi s3 s3 1,s3,none
+88,0x0040003c,bge s2 s0 end_loop,none,none
+89,0x00400054,addi s3 s3 1,s3,none
+90,0x00400058,addi s6 s6 1,s6,none
+91,0x0040005c,la a0 sum,a0,none
+92,0x00400060,sw s1 0(a0),none,store:0x10010004
+93,0x00400064,addi s3 s3 2,s3,none
+94,0x00400068,addi s5 s5 1,s5,none
+95,0x0040006c,la a0 total_instr,a0,none
+96,0x00400070,addi s3 s3 8,s3,none
+97,0x00400074,sw s3 0(a0),none,store:0x10010008
+98,0x00400078,addi s5 s5 1,s5,none
+99,0x0040007c,la a0 total_loads,a0,none
+100,0x00400080,sw s4 0(a0),none,store:0x1001000c
+101,0x00400084,addi s5 s5 1,s5,none
+102,0x00400088,la a0 total_stores,a0,none
+103,0x0040008c,addi s5 s5 1,s5,none
+104,0x00400090,sw s5 0(a0),none,store:0x10010010
+105,0x00400094,la a0 total_branches,a0,none
+106,0x00400098,sw s6 0(a0),none,store:0x10010014
+107,0x0040009c,li a7 10,a7,none
+108,0x004000a0,ecall,none,none
