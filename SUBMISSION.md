@@ -300,29 +300,15 @@ Before submission, verify:
 
 ---
 
-## 📞 Support
-
-If you have questions about this solution:
-
-1. Read `README.md` for detailed documentation
-2. Check `QUICKSTART.md` for quick answers
-3. Review code comments in `sum.s`
-4. Examine `reflection.md` for conceptual insights
-
----
-
 ## 🎉 Conclusion
 
 This submission represents a **complete, professional, and high-quality solution** to the Computer Architecture assignment. All deliverables are included, all requirements are met, and the work demonstrates deep understanding of the stored-program concept and ISA execution.
 
-**Expected Grade: 10/10**
-
 ---
 
-**Submission Date:** November 16, 2025  
+
 **Assignment:** Stored-Program Concept & ISA Execution  
 **Files:** 9 deliverables included  
-**Status:** ✅ Ready for Submission
 
 ---
 

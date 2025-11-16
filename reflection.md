@@ -24,8 +24,6 @@ This exercise demonstrates why ISA design matters profoundly. The RISC-V archite
 
 Moreover, the stored-program concept enables unprecedented flexibility. The same memory holding our sum program could contain a sorting algorithm or graphics renderer simply by changing the bit patterns stored there. This universality, combined with ISA abstraction, enables the software ecosystem we depend upon today.
 
-**Word Count: 398 words**
-
 ---
 
 ## Key Takeaways
