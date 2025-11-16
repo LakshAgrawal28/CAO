@@ -292,12 +292,4 @@ Formula: S = N × (N + 1) / 2
 - Trace generation may require manual stepping in RARS
 - Python script works with any trace following the specified format
 
----
-
-## 📧 Contact
-
-For questions or issues, please contact [your email] or refer to course materials.
-
----
-
 **End of README**
